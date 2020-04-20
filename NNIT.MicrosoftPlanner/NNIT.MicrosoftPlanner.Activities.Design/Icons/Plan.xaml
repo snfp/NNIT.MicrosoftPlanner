@@ -1,0 +1,57 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,64,64" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M51,39C44.72,39,39.562,43.85,39.051,50L31,50 31,42 17,42 17,37 31,37 31,21 35,21 35,31 55,31 55,16.414 61.465,9.949C62.455,8.959 63,7.643 63,6.242 63,3.352 60.648,1 57.758,1 56.358,1 55.041,1.545 54.051,2.535L45.586,11 35,11 35,19 31,19 31,1 9.586,1 0.999999999999998,9.586 0.999999999999998,37 15,37 15,42 0.999999999999998,42 0.999999999999998,60 31,60 31,52 39.051,52C39.562,58.15 44.72,63 51,63 57.617,63 63,57.617 63,51 63,44.383 57.617,39 51,39z M45.414,14L53,6.414 54.586,8 47,15.586z M44.437,15.851L48.149,19.563 43.951,20.962C43.489,21.118 43,20.753 43,20.279 43,20.203 43.013,20.123 43.036,20.051z M50,18.586L48.414,17 56,9.414 57.586,11z M57.758,3C59.546,3 61,4.454 61,6.242 61,7.108 60.663,7.923 60.051,8.535L59,9.586 54.414,5 55.465,3.949C56.077,3.337,56.892,3,57.758,3z M37,13L43.586,13 43.126,13.46 41.138,19.422C41.047,19.7 41,19.988 41,20.279 41,21.779 42.221,23 43.721,23 44.012,23 44.3,22.953 44.581,22.86L50.54,20.874 53,18.414 53,29 37,29z M4.41400000000002,9L9.00000000000002,4.414 9.00000000000002,9z M7.00000000000002,11L11,11 11,7 25,7 25,13 7.00000000000001,13z M3.00000000000002,11L5.00000000000002,11 5.00000000000002,15 27,15 27,5 11,5 11,3 29,3 29,35 3.00000000000001,35z M29,58L3.00000000000001,58 3.00000000000001,44 29,44z M51,61C45.486,61 41,56.514 41,51 41,45.486 45.486,41 51,41 56.514,41 61,45.486 61,51 61,56.514 56.514,61 51,61z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M49,55.586L45.707,52.293 44.293,53.707 49,58.414 58.707,48.707 57.293,47.293z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M8,54C9.654,54 11,52.654 11,51 11,49.346 9.654,48 8,48 6.346,48 5,49.346 5,51 5,52.654 6.346,54 8,54z M8,50C8.552,50 9,50.448 9,51 9,51.552 8.552,52 8,52 7.448,52 7,51.552 7,51 7,50.448 7.448,50 8,50z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M16,54C17.654,54 19,52.654 19,51 19,49.346 17.654,48 16,48 14.346,48 13,49.346 13,51 13,52.654 14.346,54 16,54z M16,50C16.552,50 17,50.448 17,51 17,51.552 16.552,52 16,52 15.448,52 15,51.552 15,51 15,50.448 15.448,50 16,50z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M24,54C25.654,54 27,52.654 27,51 27,49.346 25.654,48 24,48 22.346,48 21,49.346 21,51 21,52.654 22.346,54 24,54z M24,50C24.552,50 25,50.448 25,51 25,51.552 24.552,52 24,52 23.448,52 23,51.552 23,51 23,50.448 23.448,50 24,50z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M39,25L51,25 51,27 39,27z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M5,17L7,17 7,19 5,19z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M9,17L27,17 27,19 9,19z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M5,21L27,21 27,23 5,23z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF000000">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M5,33L27,33 27,25 5,25z M7,27L25,27 25,31 7,31z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+  </DrawingGroup>
+</DrawingGroup>

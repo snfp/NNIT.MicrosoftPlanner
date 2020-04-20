@@ -1,0 +1,34 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,415.998,415.998" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="12" RadiusY="12" Center="208.239,48" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M367.998,95.999C367.998,78.326,353.672,63.999,335.999,63.999L291.575,63.999C285.649,57.416 278.037,52.379 269.291,49.863 261.924,47.745 256.254,42.075 254.135,34.708 248.37,14.663 229.897,0 207.998,0 186.1,0 167.628,14.663 161.864,34.706 159.742,42.082 154.058,47.745 146.682,49.87 137.946,52.388 130.341,57.42 124.42,63.999L79.999,63.999C62.325,63.999,47.999,78.326,47.999,95.999L47.999,383.998C47.999,401.671 62.325,415.998 79.999,415.998 153.465,415.998 243.757,415.998 335.999,415.998 353.673,415.998 367.999,401.671 367.999,383.998 367.999,293.119 367.998,206.096 367.998,95.999z M128,95.742C128.11,81.676 137.614,69.136 151.112,65.246 163.822,61.584 173.589,51.82 177.239,39.13 181.157,25.51 193.805,16 207.998,16 222.192,16 234.84,25.51 238.756,39.13 242.408,51.828 252.169,61.589 264.867,65.24 278.485,69.157 287.997,81.806 287.997,95.998L287.997,111.998 128,111.998 128,95.742z M335.999,399.998C250.544,399.998 165.229,399.998 79.999,399.998 71.176,399.998 63.999,392.82 63.999,383.998L63.999,95.999C63.999,87.177,71.176,79.999,79.999,79.999L114.741,79.999C113.011,84.891,112.043,90.142,112.001,95.616L112.001,127.999 303.999,127.999 303.999,95.999C303.999,90.384,303.007,85.008,301.235,79.999L335.999,79.999C344.821,79.999 351.998,87.177 351.998,95.999 351.998,141.742 351.997,356.253 352,383.998 351.999,392.82 344.822,399.998 335.999,399.998z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M274.51,194.508L274.51,194.508 178.343,290.674 135.955,248.286 124.642,259.6 178.343,313.302 285.823,205.822z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

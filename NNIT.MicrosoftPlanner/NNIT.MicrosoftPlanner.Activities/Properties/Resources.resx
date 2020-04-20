@@ -1,0 +1,1640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContinueOnError_Description" xml:space="preserve">
+    <value>If set, continue executing the remaining activities even if the current activity has failed.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ContinueOnError_DisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Description" xml:space="preserve">
+    <value>Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute).</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Timeout_DisplayName" xml:space="preserve">
+    <value>Timeout (milliseconds)</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Error" xml:space="preserve">
+    <value>The activity timed out and was canceled.</value>
+    <comment>error message</comment>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+    <comment>generic</comment>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Common</value>
+    <comment>category</comment>
+  </data>
+  <data name="Authentication_Category" xml:space="preserve">
+    <value>Authentication</value>
+    <comment>category</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
+  </data>
+  <data name="Options_Category" xml:space="preserve">
+    <value>Options</value>
+    <comment>category</comment>
+  </data>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>Cannot be used outside of a {0}.</value>
+    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
+  </data>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>Please provide a value for {0}.</value>
+    <comment>error message; {0} is the name of a missing property</comment>
+  </data>
+  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
+    <value>Please provide a value either for {0} or {1}, but not both.</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
+  </data>
+  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
+    <value>Please provide values for both {0} and {1}.</value>
+    <comment>error message; {0} &amp; {1} are complementary properties</comment>
+  </data>
+  <data name="PlannerScope_DisplayName" xml:space="preserve">
+    <value>Planner Scope</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="PlannerScope_Description" xml:space="preserve">
+    <value>The scope that authenticates against the azure AD for all activities inside. </value>
+  </data>
+    <comment>activity description</comment>
+  <data name="PlannerScope_ClientId_DisplayName" xml:space="preserve">
+    <value>ClientId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_ClientId_Description" xml:space="preserve">
+    <value>Client ID/Application ID of the public client application</value>
+    <comment>property description</comment>
+  </data>
+  <data name="PlannerScope_TenantId_DisplayName" xml:space="preserve">
+    <value>TenantId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_TenantId_Description" xml:space="preserve">
+    <value>The Azure tenant ID of the organization</value>
+    <comment>property description</comment>
+  </data>
+  <data name="PlannerScope_AuthenticationType_DisplayName" xml:space="preserve">
+    <value>AuthenticationType</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_AuthenticationType_Description" xml:space="preserve">
+    <value>The authentication type for connecting to the azure application. Three types are available.Attended authentication with a interactive session, unattended authenticate with Credential Authentication, unattended authentication with windows integration</value>
+    <comment>property description</comment>
+  </data>
+  <data name="PlannerScope_Username_DisplayName" xml:space="preserve">
+    <value>Username</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_Username_Description" xml:space="preserve">
+    <value>The username of the microsoft 360 account</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Credential_Category" xml:space="preserve">
+    <value>Credential</value>
+    <comment>category</comment>
+  </data>
+  <data name="PlannerScope_Password_DisplayName" xml:space="preserve">
+    <value>Password</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_Password_Description" xml:space="preserve">
+    <value>The password of the microsoft 360 account</value>
+    <comment>property description</comment>
+  </data>
+  <data name="PlannerScope_RedirectUri_DisplayName" xml:space="preserve">
+    <value>RedirectUri</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_RedirectUri_Description" xml:space="preserve">
+    <value>The redirect Uri of the public client application</value>
+    <comment>property description</comment>
+  </data>
+  <data name="PlannerScope_AuthToken_DisplayName" xml:space="preserve">
+    <value>AuthToken</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PlannerScope_AuthToken_Description" xml:space="preserve">
+    <value>The authentication token returned by Azure </value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_DisplayName" xml:space="preserve">
+    <value>Get Planner Group</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetPlannerGroup_Description" xml:space="preserve">
+    <value>Used to get a group reated to planner</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetPlannerGroup_GroupId_DisplayName" xml:space="preserve">
+    <value>GroupId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_GroupId_Description" xml:space="preserve">
+    <value>the Group Id of the group you want to get</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_GroupDisplayName_DisplayName" xml:space="preserve">
+    <value>GroupDisplayName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_GroupDisplayName_Description" xml:space="preserve">
+    <value>The display name of the group you want to get</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_Id_DisplayName" xml:space="preserve">
+    <value>Id</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_Id_Description" xml:space="preserve">
+    <value>The Id of the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_CreatedDateTime_DisplayName" xml:space="preserve">
+    <value>CreatedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_CreatedDateTime_Description" xml:space="preserve">
+    <value>The creation time of the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_Description_DisplayName" xml:space="preserve">
+    <value>Description</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_Description_Description" xml:space="preserve">
+    <value>The description of the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_Mail_DisplayName" xml:space="preserve">
+    <value>Mail</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_Mail_Description" xml:space="preserve">
+    <value>The mail value of the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_Visibillity_DisplayName" xml:space="preserve">
+    <value>Visibillity</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_Visibillity_Description" xml:space="preserve">
+    <value>The visibillity of the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_GroupDictionary_DisplayName" xml:space="preserve">
+    <value>ResponseDictionary</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_GroupDictionary_Description" xml:space="preserve">
+    <value>The whole response containing all available information about the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_DisplayName" xml:space="preserve">
+    <value>Get Plans Related to Group Id</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Description" xml:space="preserve">
+    <value>Gets all the plans related to a group Id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_GroupId_DisplayName" xml:space="preserve">
+    <value>GroupId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_GroupId_Description" xml:space="preserve">
+    <value>The Id of the Group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_PlanDictionaries_DisplayName" xml:space="preserve">
+    <value>PlanDictionaries</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_PlanDictionaries_Description" xml:space="preserve">
+    <value>A collection of dictionaries containing all related plans to the group</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Owners_DisplayName" xml:space="preserve">
+    <value>Owners</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Owners_Description" xml:space="preserve">
+    <value>A array containing all of the related plan owners. Each owner is a group Id</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Ids_DisplayName" xml:space="preserve">
+    <value>Ids</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Ids_Description" xml:space="preserve">
+    <value>A array containing all of the related plan ids</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_DisplayNames_DisplayName" xml:space="preserve">
+    <value>DisplayNames</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_DisplayNames_Description" xml:space="preserve">
+    <value>A array containing all of the related display names</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_DisplayName" xml:space="preserve">
+    <value>Get Plan</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetPlan_Description" xml:space="preserve">
+    <value>Get plan properties and relationships by using plan id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetPlan_Id_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_Id_Description" xml:space="preserve">
+    <value>The id of the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_Etag_Description" xml:space="preserve">
+    <value>the plans entity tag used when updating the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_CreatedDateTime_DisplayName" xml:space="preserve">
+    <value>CreatedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_CreatedDateTime_Description" xml:space="preserve">
+    <value>The creation time of the planner</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_Owner_DisplayName" xml:space="preserve">
+    <value>Owner</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_Owner_Description" xml:space="preserve">
+    <value>The owner of the plan. Owner is a group id</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_Title_DisplayName" xml:space="preserve">
+    <value>Title</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_Title_Description" xml:space="preserve">
+    <value>The title of the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_JsonResponse_Description" xml:space="preserve">
+    <value>The entire raw json repsonse</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlanDetails_DisplayName" xml:space="preserve">
+    <value>Get Plan Details</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetPlanDetails_Description" xml:space="preserve">
+    <value>Get Task details like like categoryDescriptions and SharedWith by using plan id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetPlanDetails_Id_DisplayName" xml:space="preserve">
+    <value>Id</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlanDetails_Id_Description" xml:space="preserve">
+    <value>The id of the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlanDetails_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlanDetails_Etag_Description" xml:space="preserve">
+    <value>the plans entity tag used when updating the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlanDetails_SharedWith_DisplayName" xml:space="preserve">
+    <value>SharedWith</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlanDetails_SharedWith_Description" xml:space="preserve">
+    <value>Group ids that the plan is shared with</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlanDetails_CategoryDescriptions_DisplayName" xml:space="preserve">
+    <value>CategoryDescriptions</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlanDetails_CategoryDescriptions_Description" xml:space="preserve">
+    <value>Descriptions of categories that can be associated with tasks in the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlanDetails_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlanDetails_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_DisplayName" xml:space="preserve">
+    <value>Get User</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetUser_Description" xml:space="preserve">
+    <value>Get User information by using user Id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetUser_Id_DisplayName" xml:space="preserve">
+    <value>UserId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_Id_Description" xml:space="preserve">
+    <value>Id of the user</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_BusinessPhones_DisplayName" xml:space="preserve">
+    <value>BusinessPhones</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_BusinessPhones_Description" xml:space="preserve">
+    <value>the user's business phone numbers</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_GivenName_DisplayName" xml:space="preserve">
+    <value>GivenName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_GivenName_Description" xml:space="preserve">
+    <value>The user's given name</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_JobTitle_DisplayName" xml:space="preserve">
+    <value>JobTitle</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_JobTitle_Description" xml:space="preserve">
+    <value>The user's job title</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_Mail_DisplayName" xml:space="preserve">
+    <value>Mail</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_Mail_Description" xml:space="preserve">
+    <value>The user's mail</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_MobilePhone_DisplayName" xml:space="preserve">
+    <value>MobilePhone</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_MobilePhone_Description" xml:space="preserve">
+    <value>The user's mobile phone number</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_OfficeLocation_DisplayName" xml:space="preserve">
+    <value>OfficeLocation</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_OfficeLocation_Description" xml:space="preserve">
+    <value>The user's office location</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_PreferredLanguage_DisplayName" xml:space="preserve">
+    <value>PreferredLanguage</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_PreferredLanguage_Description" xml:space="preserve">
+    <value>The user's preferred language</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_Surname_DisplayName" xml:space="preserve">
+    <value>Surname</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_Surname_Description" xml:space="preserve">
+    <value>the user's surname</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_UserPrincipalName_DisplayName" xml:space="preserve">
+    <value>UserPrincipalName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_UserPrincipalName_Description" xml:space="preserve">
+    <value>the user's user principal name</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_DisplayName" xml:space="preserve">
+    <value>Get All Buckets in Plan</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_Description" xml:space="preserve">
+    <value>Get all buckets in a plan by using plan id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_Id_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_Id_Description" xml:space="preserve">
+    <value>The plan id</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_Buckets_DisplayName" xml:space="preserve">
+    <value>Buckets</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_Buckets_Description" xml:space="preserve">
+    <value>List with buckets, where each bucket is a dictionary</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllBucketsInPlan_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllTasksInPlan_DisplayName" xml:space="preserve">
+    <value>Get All Tasks in Plan</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllTasksInPlan_Description" xml:space="preserve">
+    <value>Get all tasks in a plan by using plan id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllTasksInPlan_Id_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllTasksInPlan_Id_Description" xml:space="preserve">
+    <value>Id of the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllTasksInPlan_Tasks_DisplayName" xml:space="preserve">
+    <value>Tasks</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllTasksInPlan_Tasks_Description" xml:space="preserve">
+    <value>List with tasks, where each task is a dictionary. Some details might be left out for simplicity, see json for full details </value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllTasksInPlan_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllTasksInPlan_JsonResponse_Description" xml:space="preserve">
+    <value>The raw Json Response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllMyTasks_DisplayName" xml:space="preserve">
+    <value>Get All My Tasks</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllMyTasks_Description" xml:space="preserve">
+    <value>Get all tasks for the signed in user</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllMyTasks_Tasks_DisplayName" xml:space="preserve">
+    <value>Tasks</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllMyTasks_Tasks_Description" xml:space="preserve">
+    <value>List with tasks, where each task is a dictionary.Some details might be left out for simplicity, see json for full details</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllMyTasks_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllMyTasks_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_DisplayName" xml:space="preserve">
+    <value>Get Task</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetTask_Description" xml:space="preserve">
+    <value>Get task properties and relationships by using task Id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetTask_Id_DisplayName" xml:space="preserve">
+    <value>TaskId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_Id_Description" xml:space="preserve">
+    <value>The Id of the task to get</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_Etag_Description" xml:space="preserve">
+    <value>the task entity tag used when updating the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_PlanId_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_PlanId_Description" xml:space="preserve">
+    <value>PlanId of the related Plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_BucketId_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_BucketId_Description" xml:space="preserve">
+    <value>BucketId of the related bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_Title_DisplayName" xml:space="preserve">
+    <value>Title</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_Title_Description" xml:space="preserve">
+    <value>The title of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_AppliedCategories_DisplayName" xml:space="preserve">
+    <value>AppliedCategories</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_AppliedCategories_Description" xml:space="preserve">
+    <value>Dictionary of Applied Categories</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_AssignedUsers_DisplayName" xml:space="preserve">
+    <value>AssignedUsers</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_AssignedUsers_Description" xml:space="preserve">
+    <value>The assigned Users ids of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_TaskAsDictionary_DisplayName" xml:space="preserve">
+    <value>TaskAsDictionary</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_TaskAsDictionary_Description" xml:space="preserve">
+    <value>Dictionary of the task. Some details might be left out for simplicity, see json for full details</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_DisplayName" xml:space="preserve">
+    <value>Get Task Details</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetTaskDetails_Description" xml:space="preserve">
+    <value>Get additional information about a task like checklist and description by using task id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetTaskDetails_Id_DisplayName" xml:space="preserve">
+    <value>TaskId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_Id_Description" xml:space="preserve">
+    <value>The Id of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_Description_DisplayName" xml:space="preserve">
+    <value>Description</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_Description_Description" xml:space="preserve">
+    <value>Description of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_Etag_Description" xml:space="preserve">
+    <value>The task entity tag used when updating the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_Reference_DisplayName" xml:space="preserve">
+    <value>Reference</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_Reference_Description" xml:space="preserve">
+    <value>Reference dictionary, each key is a link to the reference and a key to a underlying dictionary with additional properties to that reference</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_CheckList_DisplayName" xml:space="preserve">
+    <value>CheckList</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_CheckList_Description" xml:space="preserve">
+    <value>CheckList</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_TaskDictionary_DisplayName" xml:space="preserve">
+    <value>TaskDictionary</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_TaskDictionary_Description" xml:space="preserve">
+    <value>Dictionary of the task. Some details might be left out for simplicity, see json for full details</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTaskDetails_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTaskDetails_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllTasksinBucket_DisplayName" xml:space="preserve">
+    <value>Get All Tasks in Bucket</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllTasksinBucket_Description" xml:space="preserve">
+    <value>Get all tasks in a bucket by using bucket id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllTasksinBucket_Id_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllTasksinBucket_Id_Description" xml:space="preserve">
+    <value>Id of the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllTasksinBucket_Tasks_DisplayName" xml:space="preserve">
+    <value>Tasks</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllTasksinBucket_Tasks_Description" xml:space="preserve">
+    <value>List with tasks, where each task is a dictionary.Some details might be left out for simplicity, see json for full details </value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllTasksinBucket_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllTasksinBucket_JsonResponse_Description" xml:space="preserve">
+    <value>The raw Json Response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetBucket_DisplayName" xml:space="preserve">
+    <value>Get Bucket</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetBucket_Description" xml:space="preserve">
+    <value>Get bucket properties and relationships by using bucket id</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetBucket_Id_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetBucket_Id_Description" xml:space="preserve">
+    <value>The Id of the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetBucket_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetBucket_Etag_Description" xml:space="preserve">
+    <value>the bucket entity tag used when updating the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetBucket_PlanId_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetBucket_PlanId_Description" xml:space="preserve">
+    <value>The Id of the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetBucket_Name_DisplayName" xml:space="preserve">
+    <value>name</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetBucket_Name_Description" xml:space="preserve">
+    <value>Name of the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetBucket_JsonRepsonse_DisplayName" xml:space="preserve">
+    <value>JsonRepsonse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetBucket_JsonRepsonse_Description" xml:space="preserve">
+    <value>The raw Json Response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetBucket_BucketDictionary_DisplayName" xml:space="preserve">
+    <value>BucketDictionary</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetBucket_BucketDictionary_Description" xml:space="preserve">
+    <value>Bucket as a dictionary</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteTask_DisplayName" xml:space="preserve">
+    <value>Delete Task</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteTask_Description" xml:space="preserve">
+    <value>Deletes a planner task</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DeleteTask_Id_DisplayName" xml:space="preserve">
+    <value>TaskId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteTask_Id_Description" xml:space="preserve">
+    <value>the id of the task to be deleted</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteTask_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteTask_StatusCode_Description" xml:space="preserve">
+    <value>Status code of the deletion</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteTask_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteTask_Etag_Description" xml:space="preserve">
+    <value>Last known Etag value for the task. If not provided a lookup will be performed</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteBucket_DisplayName" xml:space="preserve">
+    <value>Delete Bucket</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteBucket_Description" xml:space="preserve">
+    <value>Deletes a planner bucket</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DeleteBucket_Id_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteBucket_Id_Description" xml:space="preserve">
+    <value>the id of the task to be deleted</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteBucket_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteBucket_Etag_Description" xml:space="preserve">
+    <value>Last known Etag value for the task. If not provided a lookup will be performed</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteBucket_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteBucket_StatusCode_Description" xml:space="preserve">
+    <value>Status code of the deletion</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateTask_DisplayName" xml:space="preserve">
+    <value>Create Task</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CreateTask_Description" xml:space="preserve">
+    <value>Creates a new planner task</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="CreateTask_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateTask_JsonFormat_Description" xml:space="preserve">
+    <value>The task to be created in json. See microsoft documentation for how to format:https://docs.microsoft.com/en-us/graph/api/planner-post-tasks?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="InputMethod1_Category" xml:space="preserve">
+    <value>Input Method 1</value>
+    <comment>category</comment>
+  </data>
+  <data name="CreateTask_PlanId_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateTask_PlanId_Description" xml:space="preserve">
+    <value>The plan id for the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="InputMethod2_Category" xml:space="preserve">
+    <value>Input Method 2</value>
+    <comment>category</comment>
+  </data>
+  <data name="CreateTask_BucketId_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateTask_BucketId_Description" xml:space="preserve">
+    <value>The bucket id for the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateTask_AssignedUsers_DisplayName" xml:space="preserve">
+    <value>AssignedUsers</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateTask_AssignedUsers_Description" xml:space="preserve">
+    <value>An array of the to be assigned users ids</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateTask_Title_DisplayName" xml:space="preserve">
+    <value>Title</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateTask_Title_Description" xml:space="preserve">
+    <value>Title of the planner task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Createbucket_DisplayName" xml:space="preserve">
+    <value>Create bucket</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Createbucket_Description" xml:space="preserve">
+    <value>Creates a new planner bucket</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Createbucket_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Createbucket_JsonFormat_Description" xml:space="preserve">
+    <value>The bucket to be created in json. See microsoft documentation for how to format:https://docs.microsoft.com/en-us/graph/api/planner-post-buckets?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Createbucket_PlanId_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Createbucket_PlanId_Description" xml:space="preserve">
+    <value>The plan id for the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Createbucket_BucketName_DisplayName" xml:space="preserve">
+    <value>BucketName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Createbucket_BucketName_Description" xml:space="preserve">
+    <value>The name of the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlan_DisplayName" xml:space="preserve">
+    <value>Update Plan</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdatePlan_Description" xml:space="preserve">
+    <value>Update plan with basic information</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdatePlan_PlanId_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlan_PlanId_Description" xml:space="preserve">
+    <value>The planner id to update</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlan_ETag_DisplayName" xml:space="preserve">
+    <value>ETag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlan_ETag_Description" xml:space="preserve">
+    <value>Last known ETag value for the plan to be updated. If left blank it will be retrived automatically</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlan_Owner_DisplayName" xml:space="preserve">
+    <value>Owner</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlan_Owner_Description" xml:space="preserve">
+    <value>Update plan group owner id, can only be updated by the owner</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlan_Title_DisplayName" xml:space="preserve">
+    <value>Title</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlan_Title_Description" xml:space="preserve">
+    <value>Update the title to update</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlan_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlan_JsonFormat_Description" xml:space="preserve">
+    <value>Use json to update the plan. See Microsoft Documentation for how to format: https://docs.microsoft.com/en-us/graph/api/plannerplan-update?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlan_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlan_StatusCode_Description" xml:space="preserve">
+    <value>The status code indicating if the request was successful</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlanDetails_DisplayName" xml:space="preserve">
+    <value>Update Plan Details</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdatePlanDetails_Description" xml:space="preserve">
+    <value>Update plan details</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdatePlanDetails_Id_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlanDetails_Id_Description" xml:space="preserve">
+    <value>Id of the plan to update</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlanDetails_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlanDetails_Etag_Description" xml:space="preserve">
+    <value>Last known ETag value for the plan to be updated. If left blank it will be retrived automatically</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlanDetails_SharedWith_DisplayName" xml:space="preserve">
+    <value>SharedWith</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlanDetails_SharedWith_Description" xml:space="preserve">
+    <value>Update the user ids that this plan is shared with. It consist of user/group for key and booleans for values</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlanDetails_CategoryDescriptions_DisplayName" xml:space="preserve">
+    <value>CategoryDescriptions</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlanDetails_CategoryDescriptions_Description" xml:space="preserve">
+    <value>Update the descriptions of the six categories that can be associated with tasks in the plan. The keys has to be category1, category2 and so on.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlanDetails_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlanDetails_JsonFormat_Description" xml:space="preserve">
+    <value>Use json to update the plan. See microsoft documentation for how to format: https://docs.microsoft.com/en-us/graph/api/plannerplandetails-update?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdatePlanDetails_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdatePlanDetails_StatusCode_Description" xml:space="preserve">
+    <value>The status code indicating if the request was successful</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_DisplayName" xml:space="preserve">
+    <value>Update Task</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateTask_Description" xml:space="preserve">
+    <value>Update plan task</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateTask_Id_DisplayName" xml:space="preserve">
+    <value>TaskId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_Id_Description" xml:space="preserve">
+    <value>The Id of the task to be updated</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_JsonFormat_Description" xml:space="preserve">
+    <value>Use json to update the plan. See microsoft documentation for how to format: https://docs.microsoft.com/en-us/graph/api/plannertask-update?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_StatusCode_Description" xml:space="preserve">
+    <value>The status code indicating if the request was successful</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_Assignments_DisplayName" xml:space="preserve">
+    <value>Assignments</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_Assignments_Description" xml:space="preserve">
+    <value>Dictionary with keyvaluespairs "user id" : "boolean value". To add a user use boolean true value, to remove a user use a boolean false value.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_BucketId_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_BucketId_Description" xml:space="preserve">
+    <value>Update bucketId of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_DueDateTime_DisplayName" xml:space="preserve">
+    <value>DueDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_DueDateTime_Description" xml:space="preserve">
+    <value>Update the date and time at which the task is due.  The standard used is ISO 8601 and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_PercentComplete_DisplayName" xml:space="preserve">
+    <value>PercentComplete</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_PercentComplete_Description" xml:space="preserve">
+    <value>Update the Percentage of task completion. When set to 100, the task is considered completed.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_StartDateTime_DisplayName" xml:space="preserve">
+    <value>StartDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_StartDateTime_Description" xml:space="preserve">
+    <value>Update the date and time at which the task starts. The standard used is ISO 8601 and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_Title_DisplayName" xml:space="preserve">
+    <value>Title</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_Title_Description" xml:space="preserve">
+    <value>Update the title of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_ETag_DisplayName" xml:space="preserve">
+    <value>ETag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_ETag_Description" xml:space="preserve">
+    <value>Last known ETag value for the plan to be updated. If left blank it will be retrived automatically</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_DisplayName" xml:space="preserve">
+    <value>Update Task Details</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateTaskDetails_Description" xml:space="preserve">
+    <value>Update Task details</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateTaskDetails_Id_DisplayName" xml:space="preserve">
+    <value>TaskId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_Id_Description" xml:space="preserve">
+    <value>The Id of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_Description_DisplayName" xml:space="preserve">
+    <value>Description</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_Description_Description" xml:space="preserve">
+    <value>Update the description of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_JsonFormat_Description" xml:space="preserve">
+    <value>Use json to update the plan. See microsoft documentation for how to format json: https://docs.microsoft.com/en-us/graph/api/plannertaskdetails-update?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_PreviewType_DisplayName" xml:space="preserve">
+    <value>PreviewType</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_PreviewType_Description" xml:space="preserve">
+    <value>Update the preview type of the task. The possible values are: automatic, noPreview, checklist, description, reference. When set to automatic the displayed preview is chosen by the app viewing the task. </value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_CheckList_DisplayName" xml:space="preserve">
+    <value>Checklist</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_CheckList_Description" xml:space="preserve">
+    <value>Update the checklist on the task, each checklist item is a key represented by a guid(e.g d280ed1a-9f6b-4f9c-a962-fb4d00dc50ff), to make your own checklist item - generate a guid and insert it as key with a underlying dictionary defining its properties. Each checklist item must contain a valuepair  "@odata.type":"microsoft.graph.plannerChecklistItem" in the underlying dictionary. The other key valuepairs you can add to the underlying dictionary are: "title": "String-value", "isChecked": "String-value","orderHint": "String-value". To remove a reference insert null/nothing as the value for the underlying dictionary</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_References_DisplayName" xml:space="preserve">
+    <value>References</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_References_Description" xml:space="preserve">
+    <value>Update the collection of references on the task. Each link to a reference is a key in the top dictionary(The link should be url encoded).Each reference must contain one valuepair  "@odata.type":"microsoft.graph.plannerExternalReference" in the underlying dictionary. The other key valuepairs which can used are: "alias": "String-value", "previewPriority": "String-value","type": "String-value". To remove a reference insert null/nothing as the value for the underlying dictionary</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_Etag_DisplayName" xml:space="preserve">
+    <value>Etag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_Etag_Description" xml:space="preserve">
+    <value>Last known ETag value for the plan to be updated. If left blank it will be retrived automatically</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTaskDetails_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTaskDetails_StatusCode_Description" xml:space="preserve">
+    <value>status code indicating if the request was successful</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateBucket_DisplayName" xml:space="preserve">
+    <value>Update Bucket</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateBucket_Description" xml:space="preserve">
+    <value>Update bucket </value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateBucket_Id_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateBucket_Id_Description" xml:space="preserve">
+    <value>The id of the bucket to update</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateBucket_ETag_DisplayName" xml:space="preserve">
+    <value>ETag</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateBucket_ETag_Description" xml:space="preserve">
+    <value>Last known ETag value for the bucket to be updated. If left blank it will be retrived automatically</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateBucket_BucketName_DisplayName" xml:space="preserve">
+    <value>BucketName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateBucket_BucketName_Description" xml:space="preserve">
+    <value>Update the name of the bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateBucket_PlanId_DisplayName" xml:space="preserve">
+    <value>PlanId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateBucket_PlanId_Description" xml:space="preserve">
+    <value>Update the plan id which the bucket belongs</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateBucket_JsonFormat_DisplayName" xml:space="preserve">
+    <value>JsonFormat</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateBucket_JsonFormat_Description" xml:space="preserve">
+    <value>Use json to update the plan. See microsoft documentation for how to format: https://docs.microsoft.com/en-us/graph/api/plannerbucket-update?view=graph-rest-1.0&amp;tabs=http</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateBucket_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateBucket_StatusCode_Description" xml:space="preserve">
+    <value>The status code indicating if the request was successful</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Createbucket_Id_Description" xml:space="preserve">
+    <value>The id of the created bucket</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Createbucket_Id_DisplayName" xml:space="preserve">
+    <value>BucketId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Createbucket_JsonResponse_Description" xml:space="preserve">
+    <value>Get the raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Createbucket_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlannerGroup_JsonResponse_Description" xml:space="preserve">
+    <value>Get the raw json repsonse</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlannerGroup_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_JsonResponse_Description" xml:space="preserve">
+    <value>Get the raw json response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Titles_Description" xml:space="preserve">
+    <value>The titles of the plans</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlansRelatedToGroupId_Titles_DisplayName" xml:space="preserve">
+    <value>Titles</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetPlan_CreatedByUser_Description" xml:space="preserve">
+    <value>Get the id of the user who created the plan</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_CreatedByUser_DisplayName" xml:space="preserve">
+    <value>CreatedByUser</value>
+    <comment>proterty name</comment>
+  </data>
+  <data name="GetTask_ChecklistItemCount_Description" xml:space="preserve">
+    <value>The number of checklist items attached to the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_ChecklistItemCount_DisplayName" xml:space="preserve">
+    <value>ChecklistItemCount</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_CompletedBy_Description" xml:space="preserve">
+    <value>The user who completed the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_CompletedBy_DisplayName" xml:space="preserve">
+    <value>CompletedBy</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_CompletedDateTime_Description" xml:space="preserve">
+    <value>The date and time at which the task was completed.  The standard used is ISO 8601 and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_CompletedDateTime_DisplayName" xml:space="preserve">
+    <value>CompletedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_CreatedBy_Description" xml:space="preserve">
+    <value>The user who created the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_CreatedBy_DisplayName" xml:space="preserve">
+    <value>CreatedBy</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_CreatedDateTime_Description" xml:space="preserve">
+    <value>The date and time at which the task was created. The standard used is ISO 8601 and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_CreatedDateTime_DisplayName" xml:space="preserve">
+    <value>CreatedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_DueDateTime_Description" xml:space="preserve">
+    <value>The date and time at which the task is due.  The standard used is ISO 8601 and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_DueDateTime_DisplayName" xml:space="preserve">
+    <value>DueDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_HasDescription_Description" xml:space="preserve">
+    <value>Indicates whether or not the task has a description</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_HasDescription_DisplayName" xml:space="preserve">
+    <value>HasDescription</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_PercentComplete_Description" xml:space="preserve">
+    <value>The Percentage of task completion. When set to 100, the task is considered completed.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_PercentComplete_DisplayName" xml:space="preserve">
+    <value>PercentComplete</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_ReferenceCount_Description" xml:space="preserve">
+    <value>The number of references attached to the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_ReferenceCount_DisplayName" xml:space="preserve">
+    <value>ReferenceCount</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetTask_StartDateTime_Description" xml:space="preserve">
+    <value>The date and time at which the task starts. The standard used is ISO 8601 and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_StartDateTime_DisplayName" xml:space="preserve">
+    <value>StartDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateTask_AppliedCategories_Description" xml:space="preserve">
+    <value>Which of the six categories has been applied to the task. Example of keyvaluespairs "category1": true,"category3": false,"category5": true.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateTask_AppliedCategories_DisplayName" xml:space="preserve">
+    <value>AppliedCategories</value>
+    <comment>property name</comment>
+  </data>
+  <data name="JsonInput_Category" xml:space="preserve">
+    <value>Input - Json</value>
+    <comment>category</comment>
+  </data>
+  <data name="JsonResponse_Category" xml:space="preserve">
+    <value>Output - Json Response</value>
+    <comment>category</comment>
+  </data>
+  <data name="ValidationAuthenticationMethod_Error" xml:space="preserve">
+    <value>When using user and password authentication, please provide both a {0} and {1}</value>
+    <comment>error message</comment>
+  </data>
+  <data name="GetPlan_CreatedByApplication_Description" xml:space="preserve">
+    <value>Id of the application which created the planner</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetPlan_CreatedByApplication_DisplayName" xml:space="preserve">
+    <value>CreatedByApplication</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ValidationExclusiveProperties2_Error" xml:space="preserve">
+    <value>Please provide a value either for one of the input fields: {0} or use the {1}, but not both.</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
+  </data>
+  <data name="GetTask_ConversationThreadId_Description" xml:space="preserve">
+    <value>The conversation Thread Id of the comments in the task. Can be used to post comments and get comments</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetTask_ConversationThreadId_DisplayName" xml:space="preserve">
+    <value>ConversationThreadId</value>
+    <comment>proterty name</comment>
+  </data>
+  <data name="Authentication_Category" xml:space="preserve">
+    <value>Authentication</value>
+    <comment>category</comment>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Common</value>
+    <comment>category</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
+  </data>
+  <data name="Options_Category" xml:space="preserve">
+    <value>Options</value>
+    <comment>category</comment>
+  </data>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>Cannot be used outside of a {0}.</value>
+    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
+  </data>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>Please provide a value for {0}.</value>
+    <comment>error message; {0} is the name of a missing property</comment>
+  </data>
+  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
+    <value>Please provide a value either for {0} or {1}, but not both.</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
+  </data>
+  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
+    <value>Please provide values for both {0} and {1}.</value>
+    <comment>error message; {0} &amp; {1} are complementary properties</comment>
+  </data>
+  <data name="PostCommentToConversation_DisplayName" xml:space="preserve">
+    <value>Post Comment to Conversation</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="PostCommentToConversation_Description" xml:space="preserve">
+    <value>Post comment to conversation that can be related to a task</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="PostCommentToConversation_GroupId_DisplayName" xml:space="preserve">
+    <value>GroupId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PostCommentToConversation_GroupId_Description" xml:space="preserve">
+    <value>The group id which owns the conversation thread. It can be found by taking the owner from get task activity</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="PostCommentToConversation_ConversationTreadId_DisplayName" xml:space="preserve">
+    <value>ConversationTreadId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PostCommentToConversation_ConversationTreadId_Description" xml:space="preserve">
+    <value>The conversation thread id. It can be found by using the get task activity</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="PostCommentToConversation_Comment_DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PostCommentToConversation_Comment_Description" xml:space="preserve">
+    <value>The comment to be posted</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="PostCommentToConversation_JsonResponse_DisplayName" xml:space="preserve">
+    <value>JsonResponse</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PostCommentToConversation_JsonResponse_Description" xml:space="preserve">
+    <value>The raw json Response</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
+  </data>
+  <data name="PostCommentToConversation_StatusCode_DisplayName" xml:space="preserve">
+    <value>StatusCode</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PostCommentToConversation_StatusCode_Description" xml:space="preserve">
+    <value>The status code indicating if the request was successful</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
+  </data>
+</root>

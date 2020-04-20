@@ -1,0 +1,16 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,408,408" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M400,56.8L380,56.8 381.6,44C381.6,41.6 380.8,39.2 380,37.6 378.4,36 376,35.2 374.4,35.2L35.2,35.2C32.8,35.2 30.4,36 29.6,37.6 28,39.2 27.2,41.6 28,44L29.6,56.8 8,56.8C3.2,56.8,0,60,0,64.8L0,124.8C0,167.2,18.4,206.4,48.8,236L64,365.6C64.8,369.6,68,372.8,72,372.8L336,372.8C340,372.8,343.2,369.6,344,365.6L359.2,236C389.6,206.4,408,167.2,408,124.8L408,64.8C408,60,404.8,56.8,400,56.8z M16.8,124L16.8,72.8 30.4,72.8 46.4,208C28,184,16.8,155.2,16.8,124z M328.8,356.8L79.2,356.8 76.8,336 331.2,336 328.8,356.8z M332.8,320L75.2,320 67.2,252C103.2,280 151.2,296.8 204,296.8 256.8,296.8 304.8,280 340.8,252L332.8,320z M343.2,228.8C308.8,260.8 259.2,280.8 203.2,280.8 147.2,280.8 98.4,260 64,228.8L44,51.2 364,51.2 343.2,228.8z M392,124.8C392,155.2,380.8,184,362.4,208.8L378.4,73.6 392,73.6 392,124.8z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

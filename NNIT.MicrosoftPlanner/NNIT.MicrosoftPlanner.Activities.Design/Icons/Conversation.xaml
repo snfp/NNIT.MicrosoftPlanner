@@ -1,0 +1,26 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,356.484,356.484" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M293.984,7.23L62.5,7.23C28.037,7.23,0,35.268,0,69.731L0,212.511C0,246.974,28.037,275.011,62.5,275.011L209.943,275.012 280.524,345.592C282.916,347.985 286.112,349.254 289.366,349.254 290.976,349.254 292.6,348.942 294.146,348.301 298.817,346.367 301.863,341.811 301.863,336.754L301.863,274.517C332.622,270.632,356.484,244.306,356.484,212.511L356.484,69.731C356.484,35.268,328.447,7.23,293.984,7.23z M331.484,212.512C331.484,233.19,314.662,250.012,293.984,250.012L289.363,250.012C282.46,250.012,276.863,255.61,276.863,262.512L276.863,306.576 223.96,253.673C221.616,251.328,218.438,250.012,215.121,250.012L62.5,250.012C41.822,250.012,25,233.19,25,212.512L25,69.732C25,49.054,41.822,32.232,62.5,32.232L293.984,32.232C314.662,32.232,331.484,49.054,331.484,69.732L331.484,212.512z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M270.242,95.743L86.242,95.743C79.339,95.743 73.742,101.339 73.742,108.243 73.742,115.146 79.339,120.743 86.242,120.743L270.242,120.743C277.145,120.743 282.742,115.146 282.742,108.243 282.742,101.339 277.146,95.743 270.242,95.743z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF000000">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M270.242,165.743L86.242,165.743C79.339,165.743 73.742,171.339 73.742,178.243 73.742,185.147 79.339,190.743 86.242,190.743L270.242,190.743C277.145,190.743 282.742,185.146 282.742,178.243 282.742,171.34 277.146,165.743 270.242,165.743z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

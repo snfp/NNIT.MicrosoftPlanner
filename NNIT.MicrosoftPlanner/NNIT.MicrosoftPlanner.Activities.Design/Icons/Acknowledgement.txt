@@ -1,0 +1,5 @@
+Bucket:Good ware
+Task:Freepik
+Planner:Eucalyp
+team: Freepik
+Conversation:FlatIcon

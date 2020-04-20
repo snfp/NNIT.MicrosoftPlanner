@@ -1,0 +1,54 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,512,512" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing Brush="#FF36930F">
+      <GeometryDrawing.Geometry>
+        <EllipseGeometry RadiusX="256" RadiusY="256" Center="256,256" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF2A7507">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M258.095,188.342L216.428,147.586 199.023,164.991 254.404,220.372 259.883,225.851 333.014,298.982C328.713,296.544 324.823,293.363 321.506,289.581 314.967,291.096 308.988,294.059 303.916,298.113L274.013,268.21 273.836,268.387C268.778,264.444 262.633,262.124 256,262.124 244.297,262.124 234.104,269.328 228.752,279.983L180.278,231.509C174.684,225.605 167.148,221.98 158.851,221.98 141.597,221.98 127.609,237.629 127.609,256.933 127.609,268.333 132.489,278.455 140.037,284.835L139.955,284.917 159.367,304.329C159.194,304.331 159.024,304.344 158.851,304.344 146.409,304.344 135.173,298.664 127.207,289.58 107.578,294.127 92.943,311.71 92.943,332.722L92.943,363.868 240.6,511.526C245.696,511.828 250.828,512 256,512 387.296,512 495.488,413.152 510.262,285.818L345.996,121.553 326.506,105.988 258.095,188.342z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M419.057,332.723C419.057,311.711 404.422,294.129 384.793,289.581 376.827,298.665 365.591,304.345 353.149,304.345 340.707,304.345 329.472,298.665 321.505,289.581 312.925,291.569 305.304,296.045 299.439,302.215 298.848,308.134 297.245,313.724 294.829,318.789 314.958,325.213 330.239,342.582 333.645,363.869L419.056,363.869 419.056,332.723 419.057,332.723z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <EllipseGeometry RadiusX="31.24" RadiusY="34.953" Center="353.15,256.93" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M256,344.489C243.558,344.489 232.322,338.809 224.356,329.725 204.727,334.272 190.092,351.854 190.092,372.866L190.092,404.012 321.907,404.012 321.907,372.866C321.907,351.854 307.272,334.272 287.643,329.725 279.677,338.809 268.442,344.489 256,344.489z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <EllipseGeometry RadiusX="31.24" RadiusY="34.953" Center="256,297.08" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M92.943,332.723C92.943,311.711 107.578,294.129 127.207,289.581 135.173,298.665 146.409,304.345 158.851,304.345 171.293,304.345 182.528,298.665 190.495,289.581 199.075,291.569 206.696,296.045 212.561,302.215 213.152,308.134 214.755,313.724 217.171,318.789 197.042,325.213 181.761,342.582 178.355,363.869L92.943,363.869 92.943,332.723z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <EllipseGeometry RadiusX="31.24" RadiusY="34.953" Center="158.85,256.93" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M216.428,147.586L216.428,147.586 199.023,164.991 259.883,225.852 284.95,197.104 284.95,197.104 345.996,121.553 326.506,105.987 258.095,188.342z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>
