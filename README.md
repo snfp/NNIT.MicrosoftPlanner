@@ -7,4 +7,4 @@ The icons used was shared on freepik.com and was made by the following entities;
 - TaskIcon was made by Freepik,  
 - PlanIcon was made by Eucalyp,
 - TeamIcon was made by Freepik
-- Conversation was made by FlatIcon
+- ConversationIcon was made by FlatIcon
